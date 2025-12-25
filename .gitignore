@@ -1,0 +1,75 @@
+# 微信小程序开发目录忽略规则
+
+# 编译后生成的文件
+/dist/
+/unpackage/
+
+# 依赖库
+/node_modules/
+
+# 微信开发者工具生成的文件
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+
+# 缓存文件
+.cache/
+.temp/
+
+# 编辑器相关文件
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# 环境配置文件
+.env
+.env.local
+.env.*.local
+
+# 测试报告
+coverage/
+
+# 文档
+*.md
+README*.md
+CHANGELOG*.md
+
+# 其他不需要提交的文件
+*.zip
+*.rar
+*.tar.gz
+*.7z
+
+# 微信开发者工具的本地配置
+.project
+.svn
+
+# 代码检查工具的配置文件
+.eslintrc.js
+.eslintignore
+.stylelintrc
+.stylelintignore
+
+# 类型定义文件
+*.d.ts
+
+# 其他
+*.json
+!.json
+*.wxss
+!.wxss
+*.wxml
+!.wxml
+*.js
+!.js
+*.ts
+!.ts
+*.tsx
+!.tsx

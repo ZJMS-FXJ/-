@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/mine/mine",
+    "pages/order/order",
+    "pages/address/address"
+  ],
+  "subpackages": [
+    {
+      "root": "packages/cases",
+      "pages": [
+        "caseDetail/caseDetail"
+      ],
+      "independent": false
+    }
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  }
+}
